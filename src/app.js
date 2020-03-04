@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import { HashRouter,Switch,Route } from 'react-router-dom';
 
 //引入页面
-import Login from './pages/login/login';  //登录
-import Reg from './pages/reg/reg';    //注册
-import Nav from './pages/nav/nav';    //导航页面(下面有4个子页面)
+import Login from './pages/login_reg/login';  //登录
+import Reg from './pages/login_reg/reg';    //注册
+// import Nav from './pages/nav/nav';    //导航页面(下面有4个子页面)
 import Main from './pages/main/main';    //导航页面(下面有4个子页面)
 import Error404 from './pages/error404/error404'
 

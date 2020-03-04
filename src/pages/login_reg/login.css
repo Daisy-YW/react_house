@@ -1,0 +1,77 @@
+#login .am-list,
+#reg .am-list {
+  margin-bottom: 1rem;
+}
+#login .am-list-body::before,
+#reg .am-list-body::before {
+  background: #fff;
+}
+#login .am-list-item .am-input-label.am-input-label-5,
+#reg .am-list-item .am-input-label.am-input-label-5 {
+  width: 2.5rem;
+  padding: 0.5rem;
+}
+#login .am-list-item.am-input-item,
+#reg .am-list-item.am-input-item {
+  height: 3.5rem;
+}
+#login .am-button-primary,
+#reg .am-button-primary {
+  margin-bottom: 2rem;
+}
+#login .auth_code,
+#reg .auth_code {
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+#login .auth_code .am-list-item,
+#reg .auth_code .am-list-item {
+  width: 13.5rem;
+  float: left;
+  margin-right: 0.5rem;
+}
+#login .auth_code .am-button,
+#reg .auth_code .am-button {
+  float: right;
+  vertical-align: middle;
+  top: 0.8rem;
+}
+#login label,
+#reg label {
+  margin: 1rem 0 ;
+  display: block;
+  padding: 0 1rem;
+  color: #c3c3c3;
+}
+#login label .radio,
+#reg label .radio {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #c0c0c0;
+  vertical-align: middle;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}
+#login label .radio span,
+#reg label .radio span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  background: #c0c0c0;
+  vertical-align: super;
+}
+#login .consent,
+#reg .consent {
+  color: #333;
+}
+#login .consent .radio,
+#reg .consent .radio {
+  border: 1px solid #008cff;
+}
+#login .consent .radio span,
+#reg .consent .radio span {
+  background: #008cff;
+}

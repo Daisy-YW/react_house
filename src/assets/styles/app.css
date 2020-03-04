@@ -17,3 +17,36 @@ body,
 #root a:visited {
   color: #008cff;
 }
+#root .am-list-body::before {
+  background: #fff;
+}
+#root #login,
+#root #reg {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 1.5rem;
+  padding-top: 4rem;
+}
+#root #login img,
+#root #reg img {
+  margin: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+#root #reg {
+  padding-top: 3rem;
+}
+#root .am-button:link,
+#root .am-button:hover,
+#root .am-button:active,
+#root .am-button:focus,
+#root .am-button:visited {
+  color: #fff;
+}
+#root .auto {
+  margin: auto;
+}
+#root .t_center {
+  text-align: center;
+}

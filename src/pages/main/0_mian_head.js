@@ -1,11 +1,10 @@
-// 注册
 import React, { Component } from 'react'
 
-export default class reg extends Component {
+export default class mian_head extends Component {
     render() {
         return (
             <div>
-                注册
+                首页顶部
             </div>
         )
     }

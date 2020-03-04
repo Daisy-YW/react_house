@@ -14,4 +14,34 @@ html,body,#root,#app{
     a:link,a:hover,a:active,a:focus,a:visited{
         color: @base_color;
     }
+    //取消list上划线
+    .am-list-body::before{
+        background: #fff;
+    }
+    //大区域组件
+    #login,#reg{
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        padding: 1.5rem;
+        padding-top: 4rem;
+        img{
+            margin: auto;
+            display: block;
+            margin-bottom: 2rem;
+        }
+    }
+    #reg{
+        padding-top:3rem;
+    }
+    .am-button:link,.am-button:hover,.am-button:active,.am-button:focus,.am-button:visited{
+        color:#fff;
+    }
+    .auto{
+        margin: auto;
+    }
+    .t_center{
+        text-align: center;
+    }
 }
+

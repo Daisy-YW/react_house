@@ -15,7 +15,7 @@ export default class login extends Component {
         return (
             <div id="login">
                 {/* login */}
-                <img src={ logo }  style = {{width:'10rem',height:"10rem"}}/>
+                <img className="logo" src={ logo }  style = {{width:'10rem',height:"10rem"}}/>
 
                 {/* 登录框*/}
                 <div>
